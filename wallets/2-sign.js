@@ -3,7 +3,7 @@
 
 const ethers = require('ethers');
 const { Wallet, utils } = ethers;
-const { wallet1 } = require('./wallets');
+const { wallet1 } = require('./1-wallets');
 
 // only using the legacy transaction format (type 0)
 const signaturePromise = wallet1.signTransaction({
