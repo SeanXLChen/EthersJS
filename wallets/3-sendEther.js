@@ -56,6 +56,7 @@ async function sendEther({ value, to }) {
 
     // Waiting for the transaction to be mined
     await tx.wait();
+    console.log("Transaction mined");
 
     return tx;
 }
