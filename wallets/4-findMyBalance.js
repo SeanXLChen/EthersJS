@@ -1,5 +1,3 @@
-// generate wallets using private key and mnemonic
-
 const ethers = require('ethers');
 const { Wallet } = ethers;
 
